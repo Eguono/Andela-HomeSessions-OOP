@@ -21,5 +21,11 @@ class Laptop {
     getProductionDate() {
         return this.productionDate.toLocaleDateString();
     }
-
+    setColor(newColor) {
+        this.color = newColor;
+        return this.color;
+    }
+    startLaptop() {
+        return this.brand + " " + this.model + " is starting up !!!";
+    }
 }
