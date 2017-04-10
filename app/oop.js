@@ -42,3 +42,8 @@ class Dell extends Laptop {
         return this.brand + ", Purely You";
     }
 }
+
+module.exports = {
+    Laptop: Laptop,
+    Dell: Dell
+}

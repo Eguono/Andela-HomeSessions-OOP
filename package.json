@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Eguono/Andela-HomeSessions-OOP/issues"
   },
-  "homepage": "https://github.com/Eguono/Andela-HomeSessions-OOP#readme"
+  "homepage": "https://github.com/Eguono/Andela-HomeSessions-OOP#readme",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
