@@ -10,4 +10,12 @@ class Laptop {
         this.productionDate = new Date();
     }
 
+    // Simple class instance methods
+    getLaptopInfo() {
+        return this.brand + " " + this.model + " running on " + this.operatingSystem + " operating system";
+    }
+    getBrandMotto() {
+        return this.brand + "..., World's Best";
+    }
+
 }
