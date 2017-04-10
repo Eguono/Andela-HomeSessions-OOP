@@ -17,5 +17,9 @@ class Laptop {
     getBrandMotto() {
         return this.brand + "..., World's Best";
     }
+     //Method Demonstrates Abstration Principle
+    getProductionDate() {
+        return this.productionDate.toLocaleDateString();
+    }
 
 }
