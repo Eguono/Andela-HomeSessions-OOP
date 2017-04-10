@@ -4,7 +4,8 @@
   "description": "A real world problem modelled using OOP showing inheritance, encapsulation, polymorphism, e.t.c.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "jasmine-node spec"
   },
   "repository": {
     "type": "git",
