@@ -7,7 +7,7 @@ This is a javascript application that models a Laptop.
 ## Documentation and Usage
 
 * ### Create an instance of a Laptop passing in the Laptop brand, model, operating system and colour as argument
-    `var Dell = new Laptop("Dell", "Inspiron", "Windows", "Black");`
+    `let Dell = new Laptop("Dell", "Inspiron", "Windows", "Black");`
     
     You are ready to use the application, properties and methods available to the new instance => `Dell`
 
